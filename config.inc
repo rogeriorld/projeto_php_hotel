@@ -4,5 +4,7 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
 
+		<link rel="stylesheet" type="text/css" href="./css/estilo.css">
+
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="./js/bootstrap.min.js"></script>

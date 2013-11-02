@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset='UTF-8'>
-		<title>Hotel ????????</title>
-		<?php
-			include_once('config.inc');
-		?>
-	</head>
+<?php
+	require("header.php");
+?>	
 	<body>
+		<?php
+			require("nav.php");
+			require("footer.php");
+		?>
+	
 	</body>
-<html>
+</html>
