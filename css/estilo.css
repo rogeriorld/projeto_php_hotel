@@ -23,3 +23,38 @@ footer {
 	top: 20px;
 	width: 140px;	
 }
+
+.descricao {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.border {
+	display: block;
+	margin: 0 auto;
+	width: 998px;
+	height: 290px;
+	background: #FFF;
+	box-shadow: 3px 3px 10px;
+}
+.box {
+	border: 1px dashed #ccc;
+	position: relative;
+	top: 7px;
+	margin: 0 auto;
+	width: 95%;
+	height: 95%;
+	min-width: 980px;
+	max-width: 980px;
+	display: block;
+	background:rgba(100,100,100,0.5);
+	padding: 20px;
+	
+
+}
+.descricao p {	
+	font-family: Verdana;
+	font-size: 16px;
+	text-align: justify;
+}
