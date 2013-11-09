@@ -2,8 +2,8 @@
 	require("header.php");   
 ?>
 <!-- Div Login -->
-<div id="lean_overlay" style="display: none; opacity: 0.45;">
-<div id="loginmodal">
+<div id="lean_overlay" style="display: none; opacity: 0.45;"></div>
+<div class="loginmodal" style="display: none;">
     <h1>User Login</h1>
     <form id="loginform" name="loginform" method="post" action="index.html">
       <label for="username">Username:</label>
@@ -14,7 +14,6 @@
       
       <div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" value="Log In" tabindex="3"></div>
     </form>
-  </div>
   </div>
 
 	<body>
@@ -43,6 +42,7 @@
 	<script>
 	$( ".entrar" ).click(function() {
 		$( "#lean_overlay" ).show();
+		$( ".loginmodal" ).show();
 		});
 
 	</script>
