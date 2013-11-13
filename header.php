@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<meta charset='UTF-8'>
-		<title>Hotel Vicius</title>
+		<title>Hotel Ferian Palace</title>
 		<?php
 			include_once('config.inc');
 		?>
 	</head>
 	<header>
 		<div class='login'>
-			<a href="#" class='entrar'>Logar</a> / <a href="#" class='registrar'>Registrar</a>
+			<a href="#login" class='entrar'>Logar</a> / <a href="#register" class='registrar'>Registrar</a>
         </div>
 
 	</header>
